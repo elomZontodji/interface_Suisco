@@ -1,0 +1,92 @@
+
+body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+}
+.navbar
+{ 
+    background-color: #fff;
+    height: 5ex;
+    border:1px solid #EDEDF0;
+    
+}
+.navbar .button a {
+  background-color: blue;
+  color:#fff;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-top:-2ex;
+}
+ .text1{
+     margin-left: -13ex;
+ }
+
+header.header img {
+    width: 35px;
+    margin-top:-2ex;
+}
+/*  taille du fa depuis  */
+.max{
+    margin-right:15px;
+    margin-top: -2ex;
+ }
+ /*  taille du fa fin  */
+
+/*  image logo2 */
+ .rounded{
+     width: 20%;
+ }
+/*  fin image logo2  */
+
+
+/*  card image1  */
+#image1 {
+    background-image: url('../img/finance.png');
+    background-position: right;
+    padding-left: 2px;
+    background-size: 12%;
+    background-repeat: no-repeat;
+    border-radius:8px;
+
+}
+
+
+ @media screen and (max-width:1024px) {
+    #hiddengImg{
+        display: none;
+    }
+ }
+
+
+/*  card image1  */
+
+/*  Carousel debut */
+#carouselExampleIndicators{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+.carousel-item img{
+    width: 95%;
+    height: auto;
+
+}
+/*  Carousel fIN  */
+
+/*  Footer debut  */
+
+footer{
+  
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #EDEDF0;
+}
+footer a {
+    color: black;
+}
+/*  Footer Fin  */
+
